@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Let's pay</h1>
+    <p class="subtitle">It's easy</p>
+    <span class="total-price">Total: £ 19.89</span>
+    <form action="#" method="post" class="payment-form">
+      <div class="card-details">
+        <div class="card-details__input">
+          <label for="cardnumber">Card Number</label>
+          <input type="text" name="cardnumber" id="cardnumber" class="input--cardnumber" placeholder="XXXX-XXXX-XXXX-XXXX">
+        </div>
+        <div class="card-details__input">
+          <label for="carddate">Valid Thru</label>
+          <input type="text" name="exp-date" id="carddate" class="input--carddate" placeholder="MM/YY">
+        </div>
+        <div class="card-details__input">
+          <label for="cardname">Name</label>
+          <input type="text" name="ccname" id="cardname" class="input--cardname" placeholder="YOUR NAME">
+        </div>
+        <div class="card-details__input">
+          <label for="cardcvv">CVV</label>
+          <input type="text" name="cvc" id="cardcvv" class="input--cardcvv" maxlength="3" minlength="3" placeholder="XXX">
+        </div>
+      </div>
+      <div class="payment-form__button">
+        <button type="submit" class="pay-button">Pay now</button>
+      </div>
+    </form>
+  </main>       
+  <div class="circle1"></div>   
+  <div class="circle2"></div>    
+  <div class="card-template">        
+    <img src="assets/logo-mastercard.png" alt="" class="card-template__icon">
+    <div class="card-template__numbers-list">
+      <span class="card-template__numbers-item">&#8226;&#8226;&#8226;&#8226;</span>
+      <span class="card-template__numbers-item">&#8226;&#8226;&#8226;&#8226;</span>
+      <span class="card-template__numbers-item">&#8226;&#8226;&#8226;&#8226;</span>
+      <span class="card-template__numbers-item">xxxx</span>
+    </div>
+    <div class="card-template__info">
+      <span class="card-template__name">Your name</span>
+      <div class="card-template__expdate">
+        <span class="card-template__text">Valid Thru</span>
+        <span class="card-template__date">mm/yy</span>
+      </div> 
+    </div>    
+  </div>  
+</body>
+</html>
