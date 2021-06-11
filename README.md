@@ -8,7 +8,7 @@ Payment page created with HTML and CSS.
 
 Layout inspiration: [Girl Coding on Instagram](https://www.instagram.com/girl.coding/).
 
-### Web Version
+### Desktop Version
 
 <img src="screenshots/desktop.png" alt=""/> <br/>
 
